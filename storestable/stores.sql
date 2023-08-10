@@ -1,0 +1,88 @@
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('2','Avalon Mall','contact@eclipsestores.com','(709) 722-9940',0,1,0,'48 Kenmount Road','','','Vile PArle','NL','A1B 1W3','CA','19.109699','72.837090','2023-05-12 15:28:08','2023-05-15 15:49:35'),
+	 ('3','Gander Mall','contact@eclipsestores.com','(709) 256-7242',1,1,0,'132 Bennett Drive','','','Kandivali','NL','A1V 2H2','CA','19.211012','72.862312','2023-05-12 15:28:08','2023-05-15 15:49:35'),
+	 ('4','Avalon Mall','contact@eclipsestores.com','(709) 722-8721',1,1,0,'48 Kenmount Road','','','Churchgate','NL','A1B 1W3','CA','18.929402','72.827430','2023-05-12 15:28:08','2023-05-15 15:49:35'),
+	 ('5','Exploits Valley Mall','contact@eclipsestores.com','(709) 489-5226',1,1,0,'19 Cromer Avenue','','','Ghatkopar','NL','A2A 2K5','CA','19.076500','72.899147','2023-05-12 15:28:08','2023-05-15 15:49:35'),
+	 ('7','Stephenville Plaza','contact@eclipsestores.com','(709) 643-5731',1,1,0,'42 Queen Street','','','Stephenville','NL','A2N 3A7','CA','48.549531','-58.57397','2023-05-12 15:28:08',NULL),
+	 ('8','Peninsula Mall','contact@eclipsestores.com','(709) 279-3762',1,1,0,'25 Columbia Drive','','','Marystown','NL','A0E 2M0','CA','47.164638','-55.159079','2023-05-12 15:28:08',NULL),
+	 ('9','Trinity Conception Square','contact@eclipsestores.com','(709) 596-6654',1,1,0,'120 Columbus Drive','','','Carbonear','NL','A1Y 1B3','CA','47.728346','-53.245358','2023-05-12 15:28:08',NULL),
+	 ('11','Random Square','contact@eclipsestores.com','(709) 466-2896',1,1,0,'69 Manitoba Drive','','','Clarenville','NL','A5A 1K3','CA','48.164497','-53.980834','2023-05-12 15:28:08',NULL),
+	 ('12','Labrador Mall','contact@eclipsestores.com','(709) 944-7000',1,1,0,'500 Vanier Avenue','','','Labrador City','NL','A2V 2W7','CA','52.947938','-66.92517','2023-05-12 15:28:08',NULL),
+	 ('13','Lewisporte Mall','contact@eclipsestores.com','(709) 535-8145',1,1,0,'465 Main Street','','','Lewisporte','NL','A0G 3A0','CA','49.215705','-55.052726','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('14','Bay Roberts Mall','contact@eclipsestores.com','(709) 786-6370',1,1,0,'153-159 Conception Bay Hwy','','','Bay Roberts','NL','A0A 1G0','CA','47.579915','-53.277888','2023-05-12 15:28:08',NULL),
+	 ('15','Eclipse Basic - Avalon Mall','contact@eclipsestores.com','(709) 722-8717',1,1,0,'48 Kenmount Road','','','St. John''s','NL','A1B 1W3','CA','47.561471','-52.753435','2023-05-12 15:28:08',NULL),
+	 ('16','Eclipse Basic - Valley Mall','contact@eclipsestores.com','(709) 634-9318',1,1,0,'1 Mount Bernard Avenue','','','Corner Brook','NL','A2H 6Y5','CA','48.950571','-57.951371','2023-05-12 15:28:08',NULL),
+	 ('17','Viking Mall','contact@eclipsestores.com','(709) 454-4182',1,1,0,'1 Goose Cove Road','','','St. Anthony','NL','A0K 4S0','CA','51.371157','-55.600712','2023-05-12 15:28:08',NULL),
+	 ('18','Corner Brook Plaza','contact@eclipsestores.com','(709) 634-0836',1,1,0,'44 Maple Valley Road','','','Corner Brook','NL','A2H 6J3','CA','48.946658','-57.915855','2023-05-12 15:28:08',NULL),
+	 ('19','Village Mall','contact@eclipsestores.com','(709) 368-4550',1,1,0,'430 Topsail Road','','','St. John''s','NL','A1E 4N1','CA','47.535405','-52.75102','2023-05-12 15:28:08',NULL),
+	 ('20','Grand Bay Mall','contact@eclipsestores.com','(709) 695-3919',0,1,0,'27 Grand Bay Road','','','Port-aux-Basques','NL','A0M 1C0','CA','47.586893','-59.165478','2023-05-12 15:28:08','2023-05-12 20:08:22'),
+	 ('21','Mic Mac Mall','contact@eclipsestores.com','(902) 464-1344',1,1,0,'21 Micmac Boulevard','','','Dartmouth','NS','B3A 4K7','CA','44.686593','-63.559619','2023-05-12 15:28:08',NULL),
+	 ('23','Halifax Shopping Centre','contact@eclipsestores.com','(902) 455-3217',1,1,0,'7001 Mumford Road','','','Halifax','NS','B3L 4N9','CA','44.649384','-63.618971','2023-05-12 15:28:08',NULL),
+	 ('24','Highland Square Mall','contact@eclipsestores.com','(902) 752-9272',1,1,0,'689 Westville Road','','','New Glasgow','NS','B2H 2J6','CA','45.58012','-62.667232','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('25','County Fair Mall','contact@eclipsestores.com','(902) 681-1201',1,1,0,'9256 Commercial Street','','','New Minas','NS','B4N 4A9','CA','45.066169','-64.442934','2023-05-12 15:28:08',NULL),
+	 ('26','Bridgewater Mall','contact@eclipsestores.com','(902) 543-7711',1,1,0,'421 Lahave Street','','','Bridgewater','NS','B4V 3A2','CA','44.377233','-64.515347','2023-05-12 15:28:08',NULL),
+	 ('27','Yarmouth Mall','contact@eclipsestores.com','(902) 742-6133',1,1,0,'76 Starrs Road','','','Yarmouth','NS','B5A 2T5','CA','43.844785','-66.10582','2023-05-12 15:28:08',NULL),
+	 ('28','Greenwood Mall','contact@eclipsestores.com','(902) 765-2430',1,1,0,'963 Central Avenue','','','Greenwood','NS','B0P 1N0','CA','44.968489','-64.925027','2023-05-12 15:28:08',NULL),
+	 ('29','Antigonish Mall','contact@eclipsestores.com','(902) 863-1265',1,1,0,'133 Church Street','','','Antigonish','NS','B2G 2E3','CA','45.617665','-61.98286','2023-05-12 15:28:08',NULL),
+	 ('31','Confederation Court Mall','contact@eclipsestores.com','(902) 368-2699',1,1,0,'134 Kent Street','','','Charlottetown','PE','C1A 7N5','CA','46.235723','-63.128102','2023-05-12 15:28:08',NULL),
+	 ('32','Mayflower Mall','contact@eclipsestores.com','(902) 539-7753',1,1,0,'800 Grand Lake Road','','','Sydney','NS','B1P 6S9','CA','46.145715','-60.138146','2023-05-12 15:28:08',NULL),
+	 ('34','County Fair Mall','contact@eclipsestores.com','(902) 888-3349',1,1,0,'475 Granville Street North','','','Summerside','PE','C1N 4P7','CA','46.412492','-63.780692','2023-05-12 15:28:08',NULL),
+	 ('35','Amherst Centre','contact@eclipsestores.com','(902) 661-1589',1,1,0,'142 South Albion Street','','','Amherst','NS','B4H 4H4','CA','45.812095','-64.199885','2023-05-12 15:28:08',NULL),
+	 ('36','Place Bathurst Mall','contact@eclipsestores.com','(506) 548-9987',1,1,0,'1300 St. Peter Avenue','','','Bathurst','NB','E2A 3A6','CA','47.64015','-65.677973','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('37','Madawaska Centre','contact@eclipsestores.com','(506) 739-5912',1,1,0,'11 Madawaska Centre Blvd.','','','St. Basile','NB','E7C 1R7','CA','47.365079','-68.267539','2023-05-12 15:28:08',NULL),
+	 ('39','Regent Mall','contact@eclipsestores.com','(506) 443-9101',1,1,0,'1381 Regent Street','','','Fredericton','NB','E3C 1A2','CA','45.935274','-66.66402','2023-05-12 15:28:08',NULL),
+	 ('40','Charlottetown Mall','contact@eclipsestores.com','(902) 569-1869',1,1,0,'670 University Avenue','','','Charlottetown','PE','C1E 1H6','CA','46.265904','-63.144692','2023-05-12 15:28:08',NULL),
+	 ('41','Champlain Place','contact@eclipsestores.com','(506) 867-9107',1,1,0,'477 Paul Street','','','Dieppe','NB','E1A 4X5','CA','46.095538','-64.76004','2023-05-12 15:28:08',NULL),
+	 ('42','Northumberland Square','contact@eclipsestores.com','(506) 624-9409',1,1,0,'2441 King George Hwy.','','','Miramichi','NB','E1V 6W2','CA','47.031019','-65.493622','2023-05-12 15:28:08',NULL),
+	 ('43','Sugarloaf Mall','contact@eclipsestores.com','(506) 759-9463',1,1,0,'312 Val d''Armour Road','','','Atholville','NB','E3N 4E2','CA','47.9933','-66.699936','2023-05-12 15:28:08',NULL),
+	 ('44','Truro Mall','contact@eclipsestores.com','(902) 895-8980',1,1,0,'245 Robie Street','','','Truro','NS','B2N 5N6','CA','45.371116','-63.304408','2023-05-12 15:28:08',NULL),
+	 ('45','McAllister Place','contact@eclipsestores.com','(506) 657-5326',1,1,0,'519 Westmorland Road','','','Saint John','NB','E2J 3W9','CA','45.306361','-66.015991','2023-05-12 15:28:08',NULL),
+	 ('47','Centre Commercial Rivière du Loup','contact@eclipsestores.com','(418) 867-9846',1,1,0,'298 Blvd. Armand Thériault','','','Rivière du Loup','QC','G5R 4C2','CA','47.823934','-69.548531','2023-05-12 15:28:08',NULL),
+	 ('48','Centre Place de Ville','contact@eclipsestores.com','(418) 962-2637',1,1,0,'770 Laure Blvd.','','','Sept Îles','QC','G4R 1X9','CA','50.22141','-66.383975','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('49','Centre Regional Manicouagan','contact@eclipsestores.com','(418) 589-4328',1,1,0,'600 LaFleche Blvd','','','Baie Comeau','QC','G5C 2X8','CA','49.20192','-68.258172','2023-05-12 15:28:08',NULL),
+	 ('50','Place du Royaume','contact@eclipsestores.com','(418) 693-5843',1,1,0,'1401 Boul. Talbot','','','Chicoutimi','QC','G7H 5N6','CA','48.404422','-71.054673','2023-05-12 15:28:08',NULL),
+	 ('51','Les Promenades du Cuivre','contact@eclipsestores.com','(819) 797-0264',1,1,0,'100 rue du Terminus Ouest','','','Rouyn-Noranda','QC','J9X 6H7','CA','48.243148','-79.025182','2023-05-12 15:28:08',NULL),
+	 ('70','Station Mall','contact@eclipsestores.com','(705) 256-7221',1,1,0,'293 Bay Street','','','Sault Ste. Marie','ON','P6A 1X3','CA','46.511933','-84.338317','2023-05-12 15:28:08',NULL),
+	 ('71','Northgate Shopping Centre','contact@eclipsestores.com','(705) 474-5602',1,1,0,'1500 Fisher Street','','','North Bay','ON','P1B 2H3','CA','46.31512','-79.440488','2023-05-12 15:28:08',NULL),
+	 ('72','Timmins Square','contact@eclipsestores.com','(705) 360-1490',1,1,0,'1500 Riverside Drive','','','Timmins','ON','P4R 1A1','CA','48.473665','-81.382378','2023-05-12 15:28:08',NULL),
+	 ('73','New Sudbury Shopping Centre','contact@eclipsestores.com','(705) 560-1653',1,1,0,'1349 Lasalle Blvd','','','Sudbury','ON','P3A 1Z2','CA','46.519316','-80.946239','2023-05-12 15:28:08',NULL),
+	 ('74','Intercity Shopping Centre','contact@eclipsestores.com','(807) 939-1711',1,1,0,'1000 Fort William Road','','','Thunder Bay','ON','P7B 6B9','CA','48.403547','-89.243494','2023-05-12 15:28:08',NULL),
+	 ('75','Cornwall Square','contact@eclipsestores.com','(613) 932-6800',1,1,0,'1 Water Street East','','','Cornwall','ON','K6H 6M2','CA','45.016095','-74.725677','2023-05-12 15:28:08',NULL),
+	 ('76','Quinte Mall','contact@eclipsestores.com','(613) 968-3500',1,1,0,'390 North Front Street','','','Belleville','ON','K8P 3E1','CA','44.188675','-77.401579','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('77','Eastgate Square','contact@eclipsestores.com','(905) 578-1470',1,1,0,'75 Centennial Pwy. North','','','Stoney Creek','ON','L8E 2P2','CA','43.23092','-79.765609','2023-05-12 15:28:08',NULL),
+	 ('78','Cataraqui Town Centre','contact@eclipsestores.com','(613) 634-2423',1,1,0,'945 Gardiners Road','','','Kingston','ON','K7M 7H4','CA','44.256647','-76.570975','2023-05-12 15:28:08',NULL),
+	 ('80','Lynden Park Mall','contact@eclipsestores.com','(519) 752-0739',1,1,0,'84 Lynden Road','','','Brantford','ON','N3R 6B8','CA','43.170596','-80.239452','2023-05-12 15:28:08',NULL),
+	 ('81','Place d''Orléans Mall','contact@eclipsestores.com','(613) 830-9253',1,1,0,'110 Place d''Orléans Drive','','','Orléans','ON','K1C 2L9','CA','45.478609','-75.515979','2023-05-12 15:28:08',NULL),
+	 ('83','Orillia Square Mall','contact@eclipsestores.com','(705) 327-0110',1,1,0,'1029 Brodie Drive','','','Orillia','ON','L3V 6H4','CA','44.632147','-79.434469','2023-05-12 15:28:08',NULL),
+	 ('84','Lansdowne Place','contact@eclipsestores.com','(705) 745-8227',1,1,0,'645 Lansdowne Street West','','','Peterborough','ON','K9J 7Y5','CA','44.282213','-78.331707','2023-05-12 15:28:08',NULL),
+	 ('150','Kildonan Place Shopping Centre','contact@eclipsestores.com','(204) 667-6964',1,1,0,'1555 Regent Avenue West','','','Winnipeg','MB','R2C 4J2','CA','49.897939','-97.05959','2023-05-12 15:28:08',NULL),
+	 ('151','City Centre Mall','contact@eclipsestores.com','(204) 778-4623',1,1,0,'300 Mystery Lake Road','','','Thompson','MB','R8N 0M2','CA','55.743875','-97.847482','2023-05-12 15:28:08',NULL),
+	 ('152','Brandon Shoppers Mall','contact@eclipsestores.com','(204) 728-3005',1,1,0,'1570 18th Street','','','Brandon','MB','R7A 5C5','CA','49.824165','-99.964444','2023-05-12 15:28:08',NULL),
+	 ('160','Parkland Mall','contact@eclipsestores.com','(306) 782-0772',1,1,0,'277 Broadway Street E.','','','Yorkton','SK','S3N 3G7','CA','51.21185','-102.442501','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('161','Mall at Lawson Heights','contact@eclipsestores.com','(306) 934-4448',1,1,0,'134 Primrose Drive','','','Saskatoon','SK','S7K 5S6','CA','52.1692','-106.639215','2023-05-12 15:28:08',NULL),
+	 ('162','Town ''N'' Country Mall','contact@eclipsestores.com','(306) 692-6061',1,1,0,'1235 Main St. North','','','Moose Jaw','SK','S6H 6M4','CA','50.404681','-105.529803','2023-05-12 15:28:08',NULL),
+	 ('163','Estevan Shoppers Mall','contact@eclipsestores.com','(306) 634-5190',1,1,0,'400 King Street','','','Estevan','SK','S4A 2B4','CA','49.145314','-102.97795','2023-05-12 15:28:08',NULL),
+	 ('164','Swift Current Mall','contact@eclipsestores.com','(306) 773-4047',1,1,0,'1 Springs Drive','','','Swift Current','SK','S9H 3X6','CA','50.307696','-107.779639','2023-05-12 15:28:08',NULL),
+	 ('165','Gateway Mall','contact@eclipsestores.com','(306) 763-5350',1,1,0,'1403 Central Avenue','','','Prince Albert','SK','S6V 7J4','CA','53.200883','-105.756533','2023-05-12 15:28:08',NULL),
+	 ('212','Chahko Mika Mall','contact@eclipsestores.com','(250) 352-0083',1,1,0,'1107 Lakeside Drive - Unit 164','','','Nelson','BC','V1L 5Z3','CA','49.499196','-117.288192','2023-05-12 15:28:08',NULL),
+	 ('211','Tamarack Centre','contact@eclipsestores.com','(778) 517-0110',1,1,0,'#260-1500 Cranbrook St N','','','Cranbrook','BC','V1C 3S8','CA','49.524723','-115.749878','2023-05-12 15:28:08',NULL),
+	 ('210','Village Green Centre','contact@eclipsestores.com','(778) 475-1914',1,1,0,'4900 27th St','','','Vernon','BC','V1T 7G7','CA','50.283999','-119.269437','2023-05-12 15:28:08',NULL),
+	 ('170','Lloyd Mall','contact@eclipsestores.com','(780) 808-2588',1,1,0,'5211 44 Street','','','Lloydminster','AB','T9V 0A7','CA','53.276752','-110.013008','2023-05-12 15:28:08',NULL),
+	 ('213','Driftwood Mall','contact@eclipsestores.com','(250) 871-8447',1,1,0,'2751 Cliffe Avenue','','','Courtenay','BC','V9N 2L8','CA','49.673401','-124.983668','2023-05-12 15:28:08',NULL);
+INSERT INTO Eclipse.stores (store_id,store_name,email,phone_number,is_active,is_visible,allow_to_ship_stores,address1,address2,address3,city,state,zipcode,countrycode,latitude,longitude,datecreated,dateupdated) VALUES
+	 ('214','Aberdeen Mall','contact@eclipsestores.com','(236) 425-4256',1,1,0,'1320 TCH West','','','Kamloops','BC','V1S 1J2','CA','50.655247','-120.371432','2023-05-12 15:28:08',NULL),
+	 ('10','Loring Mall','contact@eclipsestores.com','(709) 896-0111',1,1,0,'371 Hamilton River Road','','','Happy Valley-Goose Bay','NL','A0P 1C0','CA','53.310484','-60.378986','2023-05-12 15:28:08',NULL),
+	 ('85','Cambridge Centre','contact@eclipsestores.com','(519)-623-9595',1,1,0,'355 Hespeler Road','','','Cambridge','ON','N1R 6B3','CA','43.393296','-80.320507','2023-05-12 15:28:08',NULL),
+	 ('215','Woodgrove Centre','contact@eclipsestores.com','(250) 933-3843',1,1,0,'6631 Island Hwy. N','','','Nanaimo','BC','V9T 4T7','CA','49.236742','-124.050413','2023-05-12 15:28:08',NULL),
+	 ('216','Pine Centre','contact@eclipsestores.com','(236) 423-2240',1,1,0,'3055 Massey Drive','','','Prince George','BC','V2N 2S9','CA','53.896963','-122.776759','2023-05-12 15:28:08',NULL),
+	 ('52','Carrefour du Nord Ouest','contact@eclipsestores.com','(819) 824-2888',1,1,0,'1801 3e Av','','','Val-d''Or','QC','J9P 5K1','CA','48.096033','-77.827094','2023-05-12 15:28:08',NULL),
+	 ('153','St. Vital Centre','contact@eclipsestores.com','(204)-221-3445',1,1,0,'86-1225 St. Mary''s Road','','','Winnipeg','MB','R2M 5E5','CA','49.829043','-97.110076','2023-05-12 15:28:08',NULL),
+	 ('54','Les Promenades Drummondville (Unit #500)','contact@eclipsestores.com','(819) 475-6686',1,1,0,'755 René-Lévesque Boulevard','','','Drummondville','QC','J2C 6Y7','CA','45.899037','-72.51814','2023-05-12 15:28:08',NULL),
+	 ('53','La Grande Place des Bois-Francs (Unit #36)','contact@eclipsestores.com','(819) 357-7797',1,1,0,'1111 Boulevard Jutras E','','','Victoriaville','QC','G6S 1C1','CA','46.059831','-71.927','2023-05-12 15:28:08',NULL),
+	 ('217','Orchard Park Shopping Centre','contact@eclipsestores.com','(236) 420-2547',1,1,0,'2271 Harvey Ave (Unit #901)','','','Kelowna','BC','V1Y 6H2','CA','49.880047','-119.43905','2023-05-12 15:28:08',NULL);

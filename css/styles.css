@@ -1,0 +1,70 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+          position: relative;
+          overflow: hidden;
+          height: 300%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 80%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .pac-icon {
+        display: none;
+      }
+
+      .pac-item {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .pac-item:hover {
+        background-color: #ececec;
+      }
+
+      .pac-item-query {
+        font-size: 16px;
+      }
+      #autocomplete{ 
+        width: 50%;
+      }
+      .addressss{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+    .store_select {
+      margin-left: 5%;
+    }
+  /*    two columns*/
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
