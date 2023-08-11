@@ -78,10 +78,15 @@ try {
     // $ids = implode(",", $storeIds);
 
     $sku = isset($_GET["sku"]) ? mysqli_real_escape_string($conn, $_GET["sku"]) : "all";
+    if ($sku != 'all') {
+        $sku = "AND sku = ".$sku;
     // using joing query
-    $sql1 = "SELECT DISTINCT stores.store_name, stores.store_id, stores.address1, stores.address2, stores.address3, stores.city, stores.state, stores.zipcode, stores.countrycode, stores.latitude, stores.longitude, stores.phone_number, ($unitMultiplier * 2 * ASIN(SQRT( POWER(SIN(( $latitude1 - latitude) *  pi()/180 / 2), 2) +COS( $latitude1 * pi()/180) * COS(latitude * pi()/180) * POWER(SIN(( $longitude1 - longitude) * pi()/180 / 2), 2) ))) as distance FROM stores JOIN items ON stores.store_id = items.location_id having distance <= ".$range." order by distance ASC LIMIT $offset, $no_of_records_per_page";
+    $sql1 = "SELECT DISTINCT stores.store_name, stores.store_id, COALESCE(items.quantity, 0) AS quantity, stores.address1, stores.address2, stores.address3, stores.city, stores.state, stores.zipcode, stores.countrycode, stores.latitude, stores.longitude, stores.phone_number, ($unitMultiplier * 2 * ASIN(SQRT( POWER(SIN(( $latitude1 - latitude) *  pi()/180 / 2), 2) +COS( $latitude1 * pi()/180) * COS(latitude * pi()/180) * POWER(SIN(( $longitude1 - longitude) * pi()/180 / 2), 2) ))) as distance FROM
+    stores LEFT JOIN items ON stores.store_id = items.location_id $sku HAVING distance <= 15000 ORDER BY distance ASC LIMIT 0, 80";
+    }else{
+    $sql1 = "SELECT DISTINCT stores.store_name, stores.store_id, stores.address1, stores.address2, stores.address3, stores.city, stores.state, stores.zipcode, stores.countrycode, stores.latitude, stores.longitude, stores.phone_number, ($unitMultiplier * 2 * ASIN(SQRT( POWER(SIN(( $latitude1 - latitude) *  pi()/180 / 2), 2) +COS( $latitude1 * pi()/180) * COS(latitude * pi()/180) * POWER(SIN(( $longitude1 - longitude) * pi()/180 / 2), 2) ))) as distance FROM stores JOIN items ON stores.store_id = items.location_id having distance <= ".$range." LIMIT $offset, $no_of_records_per_page";
+    }
     //AND stores.store_id IN (".$ids.") //remove add near having based on requiremennt
-
     $conn->set_charset("utf8");
     $result1 = $conn->query($sql1);
     if (isset($_GET['range'])) {
@@ -97,7 +102,7 @@ try {
             $longitude2 = $row["longitude"];
             $qty = 0;
             if (isset($_GET['sku'])) {
-                $qty = getQtyStatusByLocationId($_GET['sku'],$row["store_id"]);
+                $qty = isset($row["quantity"]) ? $row['quantity'] : 0;
             }
               if ($qty > 0) {
                 $quantity_status = "In Stock";
